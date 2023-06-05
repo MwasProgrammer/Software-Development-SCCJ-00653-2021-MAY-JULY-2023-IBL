@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .main-header{
+    background-color: azure;
+    color: blue;
+  }
+
+  #navbar{
+    background-color: azure;
+    color: blue;
+  }
+
+  #navbar ul{
+    padding: 0;
+    list-style: none;    
+  }
+
+  #navbar li{
+    display: inline;
+
+  } 
+
+  #navbar a{
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 18px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+
+  .title-text{
+    text-align: center;
+    padding-bottom: 70px;
+
+  }
+
+  .title-text h4{
+    margin: auto;
+    font-size: 20px;
+    color:#000;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+  }
+
+  .title-text h4::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#87CEEB, #fff);
+    position: absolute;
+    top: -20;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+

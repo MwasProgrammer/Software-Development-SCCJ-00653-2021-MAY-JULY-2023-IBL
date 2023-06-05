@@ -1,0 +1,18 @@
+body {
+    /* Light mode styles */
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  body.dark-mode {
+    /* Dark mode styles */
+    background-color: #333;
+    color: #f5f5f5;
+  }
+
+#modeToggle{
+    color: whitesmoke;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10%;
+}
