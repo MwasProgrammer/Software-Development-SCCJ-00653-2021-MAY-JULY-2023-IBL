@@ -1,0 +1,63 @@
+.main-header{
+    background-color: azure;
+    color: blue;
+  }
+
+  #navbar{
+    background-color: azure;
+    color: blue;
+  }
+
+  #navbar ul{
+    padding: 0;
+    list-style: none;    
+  }
+
+  #navbar li{
+    display: inline;
+
+  } 
+
+  #navbar a{
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 18px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #00a8e8;
+  border-radius: 10px;
+}
+
+.achievement {
+  padding: 10px;
+  background-color: #00a8e8;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
